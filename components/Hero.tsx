@@ -15,11 +15,11 @@ export function Hero() {
             Bahamas-first corridor rewards
           </div>
 
-          <h1 className="zephyr-heading mt-6 max-w-4xl text-6xl font-bold leading-[0.92] text-zephyr-navy md:text-7xl lg:text-8xl">
+          <h1 className="zephyr-heading mt-6 max-w-4xl text-6xl font-bold leading-[0.92] text-white md:text-7xl lg:text-8xl">
             Rewards built for the Caribbean–US corridor.
           </h1>
 
-          <p className="mt-8 max-w-2xl text-lg leading-8 text-zephyr-navy/85">
+          <p className="mt-8 max-w-2xl text-lg leading-8 text-white/78">
             Zephyr is a Bahamas-first card-linked rewards platform helping
             tourists, local consumers, and cross-border shoppers unlock value
             across travel, everyday spending, online shopping, and local
@@ -29,7 +29,7 @@ export function Hero() {
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <Link
               href="/partner"
-              className="group inline-flex items-center justify-center rounded-full bg-zephyr-navy px-7 py-4 text-sm font-extrabold text-white shadow-zephyr transition hover:-translate-y-0.5 hover:bg-zephyr-blue"
+              className="group inline-flex items-center justify-center rounded-full bg-zephyr-gold px-7 py-4 text-sm font-extrabold text-zephyr-navy shadow-gold transition hover:-translate-y-0.5 hover:bg-zephyr-goldSoft"
             >
               Partner with us
               <ArrowRight
@@ -40,7 +40,7 @@ export function Hero() {
 
             <a
               href="#pilot"
-              className="inline-flex items-center justify-center rounded-full border border-zephyr-navy/25 bg-white px-7 py-4 text-sm font-extrabold text-zephyr-navy transition hover:-translate-y-0.5"
+              className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/8 px-7 py-4 text-sm font-extrabold text-white transition hover:-translate-y-0.5 hover:border-zephyr-gold/70 hover:bg-white/12"
             >
               View pilot
             </a>

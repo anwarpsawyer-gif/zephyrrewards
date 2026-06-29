@@ -4,8 +4,10 @@
 
 :root {
   --zephyr-navy: #071a2c;
+  --zephyr-navy2: #0b2238;
   --zephyr-blue: #0e7c86;
   --zephyr-ivory: #f8f4ec;
+  --zephyr-ivory2: #fffdf8;
   --zephyr-gold: #c9a227;
   --zephyr-slate: #64748b;
 }
@@ -20,10 +22,11 @@ html {
 
 body {
   margin: 0;
-  color: var(--zephyr-navy);
+  color: var(--zephyr-ivory);
   background:
-    radial-gradient(circle at top right, rgba(14, 124, 134, 0.12), transparent 32%),
-    linear-gradient(180deg, #fffdf8 0%, #f8f4ec 100%);
+    radial-gradient(circle at top right, rgba(14, 124, 134, 0.24), transparent 34%),
+    radial-gradient(circle at 12% 8%, rgba(201, 162, 39, 0.13), transparent 28%),
+    linear-gradient(180deg, #071a2c 0%, #0b2238 45%, #071a2c 100%);
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -41,7 +44,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: var(--zephyr-blue);
+  color: var(--zephyr-gold);
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.14em;
@@ -54,10 +57,10 @@ body {
 }
 
 .zephyr-card-surface {
-  border: 1px solid rgba(7, 26, 44, 0.08);
-  background: rgba(255, 253, 248, 0.78);
-  box-shadow: 0 24px 80px rgba(7, 26, 44, 0.1);
-  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 253, 248, 0.98);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.2);
+  color: var(--zephyr-navy);
 }
 
 .zephyr-gold-line {

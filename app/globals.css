@@ -2,6 +2,29 @@
 
 @import "tailwindcss";
 
+@theme {
+  --color-zephyr-navy: #071a2c;
+  --color-zephyr-navy2: #0b2238;
+  --color-zephyr-blue: #0e7c86;
+  --color-zephyr-blueSoft: #d7f3f0;
+  --color-zephyr-ivory: #f8f4ec;
+  --color-zephyr-ivory2: #fffdf8;
+  --color-zephyr-gold: #c9a227;
+  --color-zephyr-goldSoft: #f2e3a4;
+  --color-zephyr-slate: #64748b;
+  --color-zephyr-ink: #102033;
+
+  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+
+  --radius-zephyr: 1.5rem;
+  --radius-zephyr-lg: 2rem;
+
+  --shadow-zephyr: 0 24px 80px rgba(0, 0, 0, 0.18);
+  --shadow-zephyr-card: 0 18px 60px rgba(0, 0, 0, 0.28);
+  --shadow-gold: 0 0 40px rgba(201, 162, 39, 0.22);
+}
+
 :root {
   --zephyr-navy: #071a2c;
   --zephyr-navy2: #0b2238;
@@ -58,8 +81,8 @@ body {
 
 .zephyr-card-surface {
   border: 1px solid rgba(255, 255, 255, 0.12);
-  background: rgba(255, 253, 248, 0.98);
-  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.18);
   color: var(--zephyr-navy);
 }
 

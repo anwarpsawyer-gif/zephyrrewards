@@ -26,7 +26,7 @@ export function HowItWorks() {
         <SectionReveal>
           <div className="mx-auto max-w-3xl text-center">
             <div className="zephyr-eyebrow justify-center">How Zephyr works</div>
-            <h2 className="zephyr-heading mt-4 text-5xl font-bold text-zephyr-navy md:text-6xl">
+            <h2 className="zephyr-heading mt-4 text-4xl font-bold text-zephyr-navy md:text-5xl">
               A simpler way to connect spending, rewards, and the corridor.
             </h2>
           </div>
@@ -49,7 +49,7 @@ export function HowItWorks() {
                   <h3 className="text-xl font-extrabold text-zephyr-navy">
                     {step.title}
                   </h3>
-                  <p className="mt-4 leading-7 text-zephyr-navy/65">
+                  <p className="mt-4 leading-7 text-zephyr-navy/80">
                     {step.text}
                   </p>
                 </div>

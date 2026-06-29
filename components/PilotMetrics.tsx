@@ -26,10 +26,10 @@ export function PilotMetrics() {
         <SectionReveal>
           <div className="mx-auto max-w-3xl text-center">
             <div className="zephyr-eyebrow justify-center">Pilot</div>
-            <h2 className="zephyr-heading mt-4 text-5xl font-bold text-zephyr-navy md:text-6xl">
+            <h2 className="zephyr-heading mt-4 text-4xl font-bold text-zephyr-navy md:text-5xl">
               Starting in The Bahamas. Built for the corridor.
             </h2>
-            <p className="mt-6 text-lg leading-8 text-zephyr-navy/70">
+            <p className="mt-6 text-lg leading-8 text-zephyr-navy/85">
               Zephyr is currently building the pilot environment and selecting
               early partners for issuing, banking, loyalty, tourism, and local
               rewards.
@@ -40,7 +40,7 @@ export function PilotMetrics() {
         <div className="mt-14 grid gap-6 md:grid-cols-4">
           {metrics.map((metric) => (
             <SectionReveal key={metric.label}>
-              <div className="rounded-zephyr bg-white/75 p-7 text-center shadow-zephyr">
+              <div className="rounded-zephyr bg-white p-7 text-center shadow-zephyr">
                 <div className="zephyr-heading text-5xl font-bold text-zephyr-navy">
                   {metric.value}
                 </div>

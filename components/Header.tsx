@@ -12,7 +12,7 @@ const navItems = [
 
 export function Header() {
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-zephyr-navy/10 bg-zephyr-ivory/75 backdrop-blur-xl">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-zephyr-navy/10 bg-zephyr-ivory/95 backdrop-blur-xl">
       <div className="zephyr-container flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-full bg-zephyr-navy text-zephyr-gold shadow-gold">
@@ -33,7 +33,7 @@ export function Header() {
             <a
               key={item.href}
               href={item.href}
-              className="text-sm font-semibold text-zephyr-navy/70 transition hover:text-zephyr-navy"
+              className="text-sm font-semibold text-zephyr-navy/80 transition hover:text-zephyr-navy"
             >
               {item.label}
             </a>

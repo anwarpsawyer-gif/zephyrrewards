@@ -73,7 +73,7 @@ function CardGrid({
         <SectionReveal>
           <div className="max-w-3xl">
             <div className="zephyr-eyebrow">{eyebrow}</div>
-            <h2 className="zephyr-heading mt-4 text-5xl font-bold text-zephyr-navy md:text-6xl">
+            <h2 className="zephyr-heading mt-4 text-4xl font-bold text-zephyr-navy md:text-5xl">
               {title}
             </h2>
           </div>
@@ -84,14 +84,14 @@ function CardGrid({
             const Icon = item.icon;
             return (
               <SectionReveal key={item.title}>
-                <div className="group h-full rounded-zephyr border border-zephyr-navy/10 bg-white/70 p-7 shadow-zephyr transition hover:-translate-y-1 hover:border-zephyr-gold/50">
+                <div className="group h-full rounded-zephyr border border-zephyr-navy/10 bg-white p-7 shadow-zephyr transition hover:-translate-y-1 hover:border-zephyr-gold/50">
                   <div className="mb-8 flex h-12 w-12 items-center justify-center rounded-full bg-zephyr-ivory text-zephyr-blue transition group-hover:scale-105 group-hover:text-zephyr-gold">
                     <Icon size={22} />
                   </div>
                   <h3 className="text-lg font-extrabold text-zephyr-navy">
                     {item.title}
                   </h3>
-                  <p className="mt-3 leading-7 text-zephyr-navy/65">
+                  <p className="mt-3 leading-7 text-zephyr-navy/80">
                     {item.text}
                   </p>
                 </div>

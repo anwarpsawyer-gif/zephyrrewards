@@ -18,14 +18,14 @@ export function Footer() {
             </div>
           </div>
 
-          <p className="mt-5 max-w-xl text-sm leading-7 text-zephyr-navy/60">
+          <p className="mt-5 max-w-xl text-sm leading-7 text-zephyr-navy/80">
             Zephyr is currently in pilot development. Card issuing, rewards, and
             partner benefits are subject to partner approval, eligibility, and
             applicable programme terms.
           </p>
         </div>
 
-        <div className="flex gap-6 text-sm font-semibold text-zephyr-navy/65">
+        <div className="flex gap-6 text-sm font-semibold text-zephyr-navy/80">
           <Link href="/partner" className="hover:text-zephyr-navy">
             Partner
           </Link>

@@ -19,11 +19,11 @@ export function PartnerCorridor() {
               <div className="zephyr-eyebrow text-zephyr-gold">
                 Partner corridor
               </div>
-              <h2 className="zephyr-heading mt-4 text-5xl font-bold md:text-6xl">
+              <h2 className="zephyr-heading mt-4 text-4xl font-bold md:text-5xl">
                 A rewards layer for banks, loyalty networks, tourism operators,
                 and local businesses.
               </h2>
-              <p className="mt-6 text-lg leading-8 text-white/70">
+              <p className="mt-6 text-lg leading-8 text-white/80">
                 Zephyr helps partners reach tourists, local consumers, and
                 Caribbean–US shoppers through a modern card-linked rewards
                 experience.

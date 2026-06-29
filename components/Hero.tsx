@@ -19,7 +19,7 @@ export function Hero() {
             Rewards built for the Caribbean–US corridor.
           </h1>
 
-          <p className="mt-8 max-w-2xl text-lg leading-8 text-zephyr-navy/70">
+          <p className="mt-8 max-w-2xl text-lg leading-8 text-zephyr-navy/85">
             Zephyr is a Bahamas-first card-linked rewards platform helping
             tourists, local consumers, and cross-border shoppers unlock value
             across travel, everyday spending, online shopping, and local
@@ -40,7 +40,7 @@ export function Hero() {
 
             <a
               href="#pilot"
-              className="inline-flex items-center justify-center rounded-full border border-zephyr-navy/15 bg-white/60 px-7 py-4 text-sm font-extrabold text-zephyr-navy transition hover:-translate-y-0.5 hover:border-zephyr-gold"
+              className="inline-flex items-center justify-center rounded-full border border-zephyr-navy/25 bg-white px-7 py-4 text-sm font-extrabold text-zephyr-navy transition hover:-translate-y-0.5"
             >
               View pilot
             </a>

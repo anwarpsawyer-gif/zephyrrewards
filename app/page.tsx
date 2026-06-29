@@ -26,11 +26,11 @@ export default function Home() {
                 <div className="zephyr-eyebrow text-zephyr-gold">
                   Partner with Zephyr
                 </div>
-                <h2 className="zephyr-heading mt-4 text-5xl font-bold md:text-6xl">
+                <h2 className="zephyr-heading mt-4 text-4xl font-bold md:text-5xl">
                   We are selecting early partners for a Bahamas-first corridor
                   rewards pilot.
                 </h2>
-                <p className="mt-6 text-lg leading-8 text-white/70">
+                <p className="mt-6 text-lg leading-8 text-white/80">
                   We are currently speaking with issuing platforms, banks,
                   loyalty networks, tourism operators, local rewards partners,
                   investors, and advisors.
